@@ -31,3 +31,4 @@ ts wget -r --user=20200102F19FTSUSAT1244 --password=20200102_PLAfgkM ftp://20200
 
 
 # or one by one wget -r --user=20200102F19FTSUSAT1244 --password=20200102_PLAfgkM ftp://20200102F19FTSUSAT1244:20200102_PLAfgkM@cdts-wh.bgi.com/F19FTSUSAT1244_PLAfgkM/
+# all data saved to /data5/F19FTSUSAT1244_PLAfgkM 
