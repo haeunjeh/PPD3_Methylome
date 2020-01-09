@@ -32,3 +32,7 @@ ts wget -r --user=20200102F19FTSUSAT1244 --password=20200102_PLAfgkM ftp://20200
 
 # or one by one wget -r --user=20200102F19FTSUSAT1244 --password=20200102_PLAfgkM ftp://20200102F19FTSUSAT1244:20200102_PLAfgkM@cdts-wh.bgi.com/F19FTSUSAT1244_PLAfgkM/
 # all data saved to /data5/F19FTSUSAT1244_PLAfgkM 
+
+## download Arabidopsis genome release-45 to /data5/F19FTSUSAT1244_PLAfgkM/cdts-wh.bgi.com/F19FTSUSAT1244_PLAfgkM/Reads/ftp.ensemblgenomes.org/pub/plants/release-45/fasta/arabidopsis_thaliana/dna
+wget -r ftp://ftp.ensemblgenomes.org/pub/plants/release-45/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz
+
